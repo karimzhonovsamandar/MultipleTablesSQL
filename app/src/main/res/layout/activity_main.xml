@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/sotuvchiTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sotuvchi"
+        android:textSize="20sp"
+        android:padding="15dp"/>
+
+    <TextView
+        android:id="@+id/xaridorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xaridor"
+        android:textSize="20sp"
+        android:layout_margin="50dp"
+        android:padding="15dp"/>
+
+    <TextView
+        android:id="@+id/buyurtmaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buyurtma"
+        android:textSize="20sp"
+        android:padding="15dp"/>
+
+</LinearLayout>
